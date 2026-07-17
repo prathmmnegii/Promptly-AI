@@ -1,16 +1,60 @@
-# React + Vite
+# Promptly-AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and minimal AI chatbot built with React, Vite, and the Groq API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Clean and responsive UI
+- AI-powered conversations
+- Typing indicator
+- Auto-scroll to latest message
+- Chat history using Local Storage
+- New Chat button
+- Friendly API error handling
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
+- Groq API
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone <repository-url>
+cd promptly-ai
+npm install
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file in the root directory.
+
+```env
+VITE_GROQ_API_KEY=your_api_key_here
+```
+
+## Project Structure
+
+```
+src/
+ ├── components/
+ ├── services/
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+## Future Improvements
+
+- Streaming responses
+- Multiple chat sessions
+- Markdown support
+- Authentication
+
+## License
+
+MIT
