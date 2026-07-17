@@ -30,7 +30,7 @@
 
   flex-shrink: 0;
 
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .message-row.user .avatar {
@@ -38,8 +38,6 @@
 }
 
 .chat-message {
-  max-width: 350px;
-
   padding: 12px 16px;
 
   border-radius: 18px;
@@ -51,18 +49,24 @@
   word-break: break-word;
 }
 
+/* User Message */
 .chat-message.user {
+  max-width: 60%;
+
   background: #1f1f1f;
   color: white;
 }
 
+/* AI Message */
 .chat-message.robot {
+  max-width: 80%;
+
   background: white;
   color: #222;
 
   border: 1px solid #ececec;
 
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .chat-message p {
