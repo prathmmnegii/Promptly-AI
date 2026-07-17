@@ -47,6 +47,7 @@
   line-height: 1.6;
 
   word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 /* User Message */
@@ -71,6 +72,10 @@
 
 .chat-message p {
   margin: 0;
+
+  /* Preserve AI formatting */
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
 
 .message-time {
