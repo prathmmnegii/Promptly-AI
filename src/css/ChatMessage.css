@@ -1,0 +1,25 @@
+.chat-message {
+  max-width: 350px;
+  padding: 12px 16px;
+  margin: 10px;
+  border-radius: 18px;
+  font-size: 15px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.chat-message.user {
+  background-color: #1f1f1f;
+  color: white;
+  margin-left: auto;
+}
+
+.chat-message.robot {
+  background-color: #f1f1f1;
+  color: black;
+  margin-right: auto;
+}
+
+.chat-message p {
+  margin: 0;
+}
